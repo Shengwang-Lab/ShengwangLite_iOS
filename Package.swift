@@ -17,28 +17,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AgoraRtcKit",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0.TEST2/AgoraRtcKit.xcframework.zip",
-            checksum: "1774880caece05a74c8b2213881510254c355984d015a5a6febb30972b5b41cf"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/AgoraRtcKit.xcframework.zip",
+            checksum: "73b114e2feee309afd9a83aec82b0701f8a2fc3c4a4e688700e44ef23a5907bd"
         ),
         .binaryTarget(
             name: "Agoraffmpeg",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0.TEST2/Agoraffmpeg.xcframework.zip",
-            checksum: "2849fd664ec0c773f4700d5a210c1d76906312c6b3a5e6660ab91a8b456a23fe"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/Agoraffmpeg.xcframework.zip",
+            checksum: "84c0d01556739e7b247b9e7753b951a9f6ef96bb00d10c44f9ac2c56d6a13f33"
         ),
         .binaryTarget(
             name: "AgoraSoundTouch",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0.TEST2/AgoraSoundTouch.xcframework.zip",
-            checksum: "b031b10d692dd80ec885e87b27959e625219bff653e1f1b6ec83a28f12d1874f"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/AgoraSoundTouch.xcframework.zip",
+            checksum: "009bb3e960fd46c6f65c14e7f165240281f04621adf39b5583ff6136cb466383"
         ),
         .binaryTarget(
             name: "AgoraVideoDecoderExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0.TEST2/AgoraVideoDecoderExtension.xcframework.zip",
-            checksum: "d5e951664fb49d7be72175f081bd0a242aea88168e1a2cea6f949ed4adb71732"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/AgoraVideoDecoderExtension.xcframework.zip",
+            checksum: "e76138f695e0b3c97e57dfa6ab2d26286270a6c3286479cd9dc6e6ec2766ad57"
         ),
         .binaryTarget(
             name: "video_dec",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0.TEST2/video_dec.xcframework.zip",
-            checksum: "cc8cef41c7b0d537f6768daa45252d4c3440aebdba63593e5e625bd64641a462"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/video_dec.xcframework.zip",
+            checksum: "2844c58a144bb9b141306d0ca607b0d4504cc73f60d6fc6c832d28fdd560f139"
         ),
         .target(
             name: "ShengwangInfra_iOS",
