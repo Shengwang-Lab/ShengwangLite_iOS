@@ -8,37 +8,31 @@ let package = Package(
     defaultLocalization: "en",
     platforms: [.iOS(.v9)],
     products: [
-        .library(name: "RtcBasic", targets: ["AgoraRtcKit", "Agoraffmpeg", "AgoraSoundTouch", "ShengwangInfra_iOS"]),
-        .library(name: "VideoCodecDec", targets: ["AgoraVideoDecoderExtension", "video_dec"]),
+        .library(name: "RtcBasic", targets: ["AgoraRtcKit", "Agoraffmpeg", "AgoraSoundTouch", "video_dec", "ShengwangInfra_iOS"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Shengwang-Lab/ShengwangInfra_iOS.git", from: "1.3.0")
+        .package(url: "https://github.com/Shengwang-Lab/ShengwangInfra_iOS.git", from: "1.3.4")
     ],
     targets: [
         .binaryTarget(
             name: "AgoraRtcKit",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/AgoraRtcKit.xcframework.zip",
-            checksum: "73b114e2feee309afd9a83aec82b0701f8a2fc3c4a4e688700e44ef23a5907bd"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.2-dev.4/AgoraRtcKit.xcframework.zip",
+            checksum: "e9a5b2ebf82b5542218fed4c5afc6e74aaf2f4b4f56465ec8686ed412f7f67fd"
         ),
         .binaryTarget(
             name: "Agoraffmpeg",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/Agoraffmpeg.xcframework.zip",
-            checksum: "84c0d01556739e7b247b9e7753b951a9f6ef96bb00d10c44f9ac2c56d6a13f33"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.2-dev.4/Agoraffmpeg.xcframework.zip",
+            checksum: "6349990ab5593aff34663f28cb43e906f0259c10a870ca6b199633f001524555"
         ),
         .binaryTarget(
             name: "AgoraSoundTouch",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/AgoraSoundTouch.xcframework.zip",
-            checksum: "009bb3e960fd46c6f65c14e7f165240281f04621adf39b5583ff6136cb466383"
-        ),
-        .binaryTarget(
-            name: "AgoraVideoDecoderExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/AgoraVideoDecoderExtension.xcframework.zip",
-            checksum: "e76138f695e0b3c97e57dfa6ab2d26286270a6c3286479cd9dc6e6ec2766ad57"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.2-dev.4/AgoraSoundTouch.xcframework.zip",
+            checksum: "28d3b5bb4282492a956fe6b1c4672041fbf5a4b8ddccab88f2bb8b888db55fd3"
         ),
         .binaryTarget(
             name: "video_dec",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.0/video_dec.xcframework.zip",
-            checksum: "2844c58a144bb9b141306d0ca607b0d4504cc73f60d6fc6c832d28fdd560f139"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangLite_iOS/4.6.2-dev.4/video_dec.xcframework.zip",
+            checksum: "95b6edca263a01ff0935b5168f0327d0dd945b4e6011d9b212af1faaa1f21ec6"
         ),
         .target(
             name: "ShengwangInfra_iOS",
